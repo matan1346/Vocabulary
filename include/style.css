@@ -1,0 +1,155 @@
+
+
+body{
+    background-color:  #93b3ce;
+    font-family: verdana;
+    margin: 2px !important;
+}
+
+#Title
+{
+        text-align: center;
+        font-size: 35pt;
+}
+
+#Form-Container
+{
+    position: fixed;
+    display: inline-block;
+    /*float: right;*/
+    width: 19%;
+    direction: rtl;
+}
+
+
+#List-Words-Container
+{
+   display: inline-block;
+   float: right;
+   width: 80%;
+   /*margin-top: 15px;*/
+   
+}
+
+#List-Table
+{
+    width: 100%;
+    direction: rtl;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    background-color: #e1dfff; 
+}
+
+
+#List-Table thead tr
+{
+    /*position: fixed;*/
+    /*width: 79%;*/
+    top: 0;
+    
+    background-color: #007ac1;
+    color: white;
+}
+
+#List-Table thead tr th
+{
+    /*width: inherit;*/
+    font-size: 25pt;
+}
+
+#List-Table tbody tr
+{
+    margin-top: 12px;
+    text-align: center;
+    line-height: 25px;
+    border-bottom: 1px solid #007ac1;
+}
+
+.word
+{
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.en-word
+{
+    text-align: center;
+    direction: ltr;
+}
+
+.he-word
+{
+    text-align: right;
+}
+.option_word
+{
+    display: inline-block;
+    width: 90%;
+}
+
+.correct_option
+{
+    /*background-color: yellowgreen;*/
+        color: #4200e0;
+    text-decoration: underline;
+}
+
+.wrong_option
+{
+    text-decoration: line-through;
+    /*background-color: red;*/
+    
+}
+
+
+/*#List-Table tbody tr:hover
+{
+        background-color: #a7d4ef;
+}*/
+
+/*table.special {
+            width: 100%;
+}
+
+.special thead,.special tbody,.special tr,.special td,.special th {
+    display: block;
+}
+
+.special tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.special thead th {
+    height: 30px;
+
+    
+}
+
+.special tbody {
+    height: 600px;
+    overflow-y: auto;
+}
+
+.special thead {
+    
+}
+
+
+.special tbody td,.special thead th {
+    width: 19.2%;
+    float: right;
+}  
+
+.special tbody td{
+    margin-right: 3px;
+}  
+        
+        
+   */    
+        
+  
